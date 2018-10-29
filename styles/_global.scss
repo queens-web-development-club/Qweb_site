@@ -1,0 +1,60 @@
+body {
+  background: #FFF;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-family: $sans;
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  font-size: 21px;
+  line-height: 1.48em;
+  h1,h2,h3,h4,h5,h6{
+    font-family: $headings;
+    font-weight: normal;
+  }
+  * {
+    box-sizing: border-box;
+    &::-ms-clear {
+      display: none !important;
+    }
+    &::-ms-reveal {
+      display: none !important;
+    }
+  }
+  :focus,:active {
+    outline: none;
+  }
+}
+
+.contain {
+  margin: 0 auto;
+  max-width: 1195px;
+  padding: 0 30px;
+}
+
+.parallax-element {
+  @include media-breakpoint-down(md) {
+    transform: none !important;
+  }
+}
+
+
+
+body {
+  padding-bottom: 500px;
+  .bgg-greenblue {
+    background: linear-gradient($green, $blue);
+  }
+}

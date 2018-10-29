@@ -1,2 +1,1 @@
-# Qweb_site
-The Club Site
+# qweb-theme
