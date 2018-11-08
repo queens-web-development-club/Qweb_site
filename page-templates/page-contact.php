@@ -7,17 +7,14 @@ get_header();
 <div class='container-fluid background-texture contact h-75'>
   <div class="row h-100">
     <div class="col-md-12">
-
         <div class="text-center">
           <div class="text-block"><h1>CONTACT</h1>
           <button type="button" class="btn btn-light btn-lg">Join Qweb</button>
           <button type="button" class="btn btn-outline-light btn-lg">Work With Us</button>
+          </div>
         </div>
-
-      </div>
     </div>
   </div>
-
 </div>
 
 </header>

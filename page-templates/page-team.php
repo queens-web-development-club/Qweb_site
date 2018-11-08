@@ -10,8 +10,6 @@ get_header();
 
         <div class="text-center">
           <div class="text-block">
-            <img src="/wp-content/themes/Qweb_site/media/our-team-bg.png">
-
             <h1>OUR TEAM</h1>
           <button type="button" class="btn btn-light btn-lg">Join Qweb</button>
           <button type="button" class="btn btn-outline-light btn-lg">Work With Us</button>
