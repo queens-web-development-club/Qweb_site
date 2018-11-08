@@ -299,6 +299,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/media/our-team-bg.png": {
+		"ft": 32768,
+		"iS": 1970064,
+		"oA": 0,
+		"oAP": "/media/our-team-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/media/PortfolioBG.png": {
 		"ft": 32768,
 		"iS": 837291,
@@ -1900,6 +1911,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/css/_example.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styles/sections/_mike.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styles/css/_mike.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styles/sections/_vivek.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styles/css/_vivek.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
