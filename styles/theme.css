@@ -6279,3 +6279,8 @@ header {
     font-size: 25px;
     line-height: 1.42em;
     letter-spacing: .5px; }
+
+.OurTeamBG {
+  width: 1920px;
+  height: 796px;
+  object-fit: contain; }
