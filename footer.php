@@ -3,7 +3,7 @@
   <hr>
   <div class="row h-100">
     <div class="col-md-12">
-        <img src="/wordpress/wp-content/themes/qweb-theme/media/technologies-banner.png" class="">
+        <img src="/wordpress/wp-content/themes/Qweb_site/media/technologies-banner.png" class="">
     </div>
 
   </div>
@@ -30,11 +30,11 @@
 
   <div class="row h-100">
     <div class="col-md-12 text-center">
-          <img src="/wordpress/wp-content/themes/qweb-theme/media/facebook-icon-dark.png">
-          <img src="/wordpress/wp-content/themes/qweb-theme/media/insta-icon-dark.png">
-          <img src="/wordpress/wp-content/themes/qweb-theme/media/logo-dark.png">
-          <img src="/wordpress/wp-content/themes/qweb-theme/media/linkedin-icon-dark.png">
-          <img src="/wordpress/wp-content/themes/qweb-theme/media/mail-icon-dark.png">
+          <img src="/wordpress/wp-content/themes/Qweb_site/media/facebook-icon-dark.png">
+          <img src="/wordpress/wp-content/themes/Qweb_site/media/insta-icon-dark.png">
+          <img src="/wordpress/wp-content/themes/Qweb_site/media/logo-dark.png">
+          <img src="/wordpress/wp-content/themes/Qweb_site/media/linkedin-icon-dark.png">
+          <img src="/wordpress/wp-content/themes/Qweb_site/media/mail-icon-dark.png">
     </div>
   </div>
 
