@@ -1,0 +1,39 @@
+header .home{
+
+  background-image: url("../media/PortfolioBG.png");
+}
+header .about-us{
+
+  /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0); */
+  background-image: url("../media/about-us.png");
+}
+header .portfolio{
+
+  /* -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0); */
+  background-image: url("../media/about-us.png");
+}
+header .team{
+
+  /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0); */
+  background-image: url("../media/about-us.png");
+}
+header .contact{
+
+  /* -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0); */
+  background-image: url("../media/about-us.png");
+}
+.email-copyright {
+  font-size: 18px;
+  font-family: "Google Sans";
+  color: var(--qgrey-light);
+}
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+}
+.z-1000 {
+z-index: 1000;
+}
