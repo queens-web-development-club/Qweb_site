@@ -6195,22 +6195,22 @@ header {
     }
     header .about-us{
 
-      -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+      /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0); */
       background-image: url("../media/about-us.png");
     }
     header .portfolio{
 
-      -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+      /* -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0); */
       background-image: url("../media/about-us.png");
     }
     header .team{
 
-      -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+      /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0); */
       background-image: url("../media/about-us.png");
     }
     header .contact{
 
-      -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+      /* -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0); */
       background-image: url("../media/about-us.png");
     }
     .email-copyright {
