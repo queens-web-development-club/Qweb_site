@@ -10,7 +10,7 @@ get_header();
     <div class="col-md-12">
 
         <div class="text-center">
-          <div class="text-block"><h1>LEARN AT QWEB</h1>
+          <div class="text-block-1"><h1>LEARN AT QWEB</h1>
           <button type="button" class="btn btn-light btn-lg font-family:'Google Sans'">Join Qweb</button>
           <button type="button" class="btn btn-outline-light btn-lg">Work With Us</button>
         </div>
