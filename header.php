@@ -19,7 +19,7 @@ global $template_settings, $post;
 
       <nav class="navbar navbar-expand-lg navbar-dark z-1000" id="navbar">
         <a class="navbar-brand" href="#">
-          <img src="/wordpress/wp-content/themes/qweb-theme/media/logo.png" alt="Q web">
+          <img src="/wordpress/wp-content/themes/Qweb_site/media/logo.png" alt="Q web">
         </a>
         <button class="navbar-toggler hamburger hamburger--collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="navToggle()">
           <span class="hamburger-box">
@@ -61,16 +61,16 @@ global $template_settings, $post;
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <a class="navbar-brand" href="https://facebook.com">
-              <img src="/wordpress/wp-content/themes/qweb-theme/media/facebook-icon.png" alt="Q web">
+              <img src="/wordpress/wp-content/themes/Qweb_site/media/facebook-icon.png" alt="Q web">
             </a>
             <a class="navbar-brand" href="https://instagram.com">
-              <img src="/wordpress/wp-content/themes/qweb-theme/media/insta-icon.png" alt="Q web">
+              <img src="/wordpress/wp-content/themes/Qweb_site/media/insta-icon.png" alt="Q web">
             </a>
             <a class="navbar-brand" href="https://linkedin.com">
-              <img src="/wordpress/wp-content/themes/qweb-theme/media/linkedin-icon.png" alt="Q web">
+              <img src="/wordpress/wp-content/themes/Qweb_site/media/linkedin-icon.png" alt="Q web">
             </a>
             <a class="navbar-brand" href="https://outlook.com">
-              <img src="/wordpress/wp-content/themes/qweb-theme/media/mail-icon.png" alt="Q web">
+              <img src="/wordpress/wp-content/themes/Qweb_site/media/mail-icon.png" alt="Q web">
             </a>
             <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
@@ -78,7 +78,7 @@ global $template_settings, $post;
         </div>
       </nav>
 
-<script src="wordpress/wp-content/themes/qweb-theme/scripts/header_effect.js"></script>
+<script src="wordpress/wp-content/themes/Qweb_site/scripts/header_effect.js"></script>
     <script>
 window.onscroll = function() {myFunction()};
 
