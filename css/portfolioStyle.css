@@ -1,0 +1,66 @@
+.Websites {
+  height: 98px;
+  object-fit: contain;
+  /*font-family: AvenirNext; */
+  font-size: 72px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  margin-right:33px;
+  color: #5f084b;
+}
+
+.Websites .text-style-1 {
+  color: #505050;
+}
+
+.Websites .text-style-2 {
+  color: #5a5a5a;
+}
+
+.Line{
+  width: 1815px;
+  height: 2px;
+  object-fit: contain;
+  border: solid 2px #979797;
+  margin-right: 33px;
+}
+.ClubLine, .BusinessesLine, .ClientsLine {
+  width:784px;
+  object-fit: contain;
+  border: solid 5px #006f71;
+  
+}
+
+.BusinessesLine{
+border: solid 5px #5f084b;
+}
+.ClientsLine{
+border: solid 5px #2f3c5e;
+}
+.CLUBS, .BUSINESSES, .CLIENTS {
+  width: 399px;
+  height: 70px;
+  object-fit: contain;
+  /*font-family: AvenirNext; */
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #006f71;
+  margin-left:48px;
+}
+.BUSINESSES {
+  color: #5f084b;
+  
+}
+.CLIENTS {
+  
+  color: #2f3c5e;
+  
+}
