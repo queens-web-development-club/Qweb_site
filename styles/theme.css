@@ -26,6 +26,16 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --qblue1:#2f3c5e;
+  --qblue2:##175567;
+  --qblue3:#006f71;
+  --qpurple1:#5f084b;
+  --qpurple2:#472255;
+  --qtint:#f6f6f6;
+  --qgrey-dark:#505050;
+  --qgrey-light:#878787;
+
+
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -1959,9 +1969,9 @@ fieldset:disabled a.btn {
   background-image: none;
   border-color: #f8f9fa; }
   .btn-outline-light:hover {
-    color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa; }
+    color: #f8f9fa;
+    background-color: var(--qpurple2);
+    border-color: var(--qpurple2); }
   .btn-outline-light:focus, .btn-outline-light.focus {
     box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }
   .btn-outline-light.disabled, .btn-outline-light:disabled {
@@ -2670,7 +2680,7 @@ tbody.collapse.show {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -3848,7 +3858,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -3868,7 +3878,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -3885,7 +3895,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -3914,7 +3924,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -5870,6 +5880,13 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
+.text-vcenter {
+  text-align: center !important;
+  position: absolute !important;
+  top: 50% !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important; }
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important; }
@@ -6103,7 +6120,7 @@ body {
   font-size: 21px;
   line-height: 1.48em; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: "Roboto";
+    font-family: "Google Sans";
     font-weight: normal; }
   body * {
     box-sizing: border-box; }
@@ -6169,8 +6186,50 @@ header {
     bottom: 0;
     background-size: cover;
     background-position: center;
-    background-image: url("../media/scatter.png");
+
+
     background-attachment: fixed; }
+    header .home{
+
+      background-image: url("../media/PortfolioBG.png");
+    }
+    header .about-us{
+
+      -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+      background-image: url("../media/about-us.png");
+    }
+    header .portfolio{
+
+      -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+      background-image: url("../media/about-us.png");
+    }
+    header .team{
+
+      -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+      background-image: url("../media/about-us.png");
+    }
+    header .contact{
+
+      -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+      background-image: url("../media/about-us.png");
+    }
+    .email-copyright {
+      font-size: 18px;
+      font-family: "Google Sans";
+      color: var(--qgrey-light);
+    }
+
+    .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.z-1000 {
+  z-index: 1000;
+}
+
+
     header .background-texture-cover {
       position: absolute;
       top: 0;
@@ -6182,7 +6241,7 @@ header {
   header nav {
     z-index: 2; }
   header .text-block {
-    background: linear-gradient(#673AB7, #512DA8);
+    background: transparent;
     max-width: 600px;
     margin: auto; }
     header .text-block h1 {
@@ -6210,8 +6269,8 @@ header {
     margin: auto; }
   header h1 {
     color: #000;
-    font-family: "Roboto";
-    font-size: 40px;
+    font-family: "Google Sans";
+    font-size: 56px;
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 200px; }
