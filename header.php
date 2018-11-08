@@ -12,6 +12,7 @@ global $template_settings, $post;
 <link rel="icon"
       type="image/png"
       href="/wp-content/themes/Qweb_site/media/logo.png">
+<link rel="stylesheet" href="/wp-content/themes/Qweb_site/styles/theme.css">
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
