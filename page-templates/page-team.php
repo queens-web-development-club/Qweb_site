@@ -9,7 +9,10 @@ get_header();
     <div class="col-md-12">
 
         <div class="text-center">
-          <div class="text-block"><h1>OUR TEAM</h1>
+          <div class="text-block">
+            <img src="/wp-content/themes/Qweb_site/media/our-team-bg.png">
+
+            <h1>OUR TEAM</h1>
           <button type="button" class="btn btn-light btn-lg">Join Qweb</button>
           <button type="button" class="btn btn-outline-light btn-lg">Work With Us</button>
         </div>
