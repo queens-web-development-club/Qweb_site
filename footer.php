@@ -2,7 +2,7 @@
 <div class='container-fluid'>
   <hr>
   <div class="row h-100">
-    <div class="col-md-12">
+    <div class="col-md-12 text-center">
         <img src="/wp-content/themes/Qweb_site/media/technologies-banner.png" class="">
     </div>
 
