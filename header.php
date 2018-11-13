@@ -12,7 +12,7 @@ global $template_settings, $post;
 <link rel="icon"
       type="image/png"
       href="/wp-content/themes/Qweb_site/media/logo.png">
-      <link rel
+<link rel="stylesheet" href="/wp-content/themes/Qweb_site/styles/theme.css">
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -31,19 +31,19 @@ global $template_settings, $post;
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/wordpress/#">HOME<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/#">HOME<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/wordpress/team">OUR TEAM</a>
+              <a class="nav-link" href="/team">OUR TEAM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/wordpress/contact">CONTACT</a>
+              <a class="nav-link" href="/contact">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/wordpress/about-us">ABOUT US</a>
+              <a class="nav-link" href="/about-us">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/wordpress/portfolio">PORTFOLIO</a>
+              <a class="nav-link" href="/portfolio">PORTFOLIO</a>
             </li>
             <!--<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

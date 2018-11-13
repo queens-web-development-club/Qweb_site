@@ -28,6 +28,16 @@ header .contact{
   color: var(--qgrey-light);
 }
 
+.bg10 {
+  background-color: transparent;
+}
+
+h1 .text-block-header {
+  background-color: #3fe4a1;
+  max-width:600px;
+  margin:auto;
+}
+
 .sticky {
 position: fixed;
 top: 0;
@@ -37,3 +47,27 @@ z-index: 1000;
 .z-1000 {
 z-index: 1000;
 }
+
+.text-block-1 {
+
+  max-width:600px;
+  margin:auto;
+}
+  header .text-block-1 h1{
+    padding:80px 24px 24px 24px;
+    color:#fff;
+    font-weight:400;
+
+  }
+  header .text-block-1 p{
+    color:#fff;
+    padding:0 24px 80px 24px;
+  }
+  @media only screen and (max-width: 768px){
+    header .text-block-1 h1{
+      font-size:32px;
+    }
+    header .text-block-1 p{
+      font-size:14px;
+    }
+    }
