@@ -6238,3 +6238,8 @@ header {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff; }
+
+.Person-Icon {
+  width: 334px;
+  height: 334px;
+  object-fit: contain; }

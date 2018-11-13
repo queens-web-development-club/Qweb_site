@@ -26,7 +26,10 @@ get_header();
     <p align='left' id='EXECUTIVE-TEAM'> EXECUTIVE MEMBERS </p>
     <hr style ='border:2px solid purple'
   </div>
-
+  <div>
+    <img src="wp-content/themes/Qweb_site/media/person-icon.png "
+     class="Person-Icon">
+ </div>
 
 </div>
 
