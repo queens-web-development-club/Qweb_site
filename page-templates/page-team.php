@@ -10,14 +10,23 @@ get_header();
 
         <div class="text-center">
           <div class="text-block">
-            <h1 id='OUR-TEAM'>OUR TEAM</h1>
+            <h1>OUR TEAM</h1>
           <button type="button" class="btn btn-light btn-lg">Join Qweb</button>
           <button type="button" class="btn btn-outline-light btn-lg">Work With Us</button>
         </div>
-        <!-- Comment -->
+
+
       </div>
     </div>
   </div>
+  <div>
+    <p align='right' id='-Members'> 87 Members. </p>
+  </div>
+  <div>
+    <p align='left' id='EXECUTIVE-TEAM'> EXECUTIVE MEMBERS </p>
+    <hr style ='border:2px solid purple'
+  </div>
+
 
 </div>
 
