@@ -18,7 +18,17 @@ get_header();
       </div>
     </div>
   </div>
-
+  <div>
+      <p align='right' id='-Members'> 87 Members. </p>
+    </div>
+    <div>
+      <p align='left' id='EXECUTIVE-TEAM'> EXECUTIVE TEAM </p>
+      <hr style ='border:2px solid purple'
+    </div>
+    <div>
+      <img src="wp-content/themes/Qweb_site/media/person-icon.png "
+       class="Person-Icon">
+   </div>
 </div>
 
 </header>
