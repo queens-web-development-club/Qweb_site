@@ -20,14 +20,23 @@ get_header();
   </div>
   <div>
       <p align='right' id='-Members'> 87 Members. </p>
-    </div>
-    <div>
-      <p align='left' id='EXECUTIVE-TEAM'> EXECUTIVE TEAM </p>
-      <hr style ='border:2px solid purple'
-    </div>
+  </div>
+  <div>
+    <p align='left' id='EXECUTIVE-TEAM'> EXECUTIVE TEAM </p>
+    <hr style ='border:1px solid purple'>
     <div>
       <img src="wp-content/themes/Qweb_site/media/person-icon.png "
-       class="Person-Icon">
+      class="Person-Icon">
+    </div>
+  </div>
+
+   <div>
+     <p align='left' id='DIRECTORS'> DIRECTORS </p>
+     <hr style ='border:1px solid green'>
+   </div>
+   <div>
+     <p align='left' id='MEMBERS'> MEMBERS </p>
+     <hr style ='border:1px solid blue'>
    </div>
 </div>
 
