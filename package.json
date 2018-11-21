@@ -4,6 +4,7 @@
   "description": "Qweb theme",
   "main": "index.js",
   "scripts": {
+
     "scss": "node-sass --watch styles/theme.scss -o styles"
   },
   "repository": {

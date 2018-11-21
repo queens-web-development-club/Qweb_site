@@ -4,7 +4,7 @@ bb_add_body_classes('front-page full-height');
 the_post();
 get_header();
 ?>
-<div class='container-fluid background-texture home h-75' id="large-header">
+<div class='container-fluid home background-texture  h-75' id="large-header">
   <!--<canvas id="demo-canvas"></canvas>-->
   <div class="row h-75">
     <div class="col-md-12">
