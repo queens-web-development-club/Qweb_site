@@ -75,6 +75,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -156,7 +157,7 @@ body {
 .center-text {
   text-align: center;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color: #777;
   line-height: 28px;
   letter-spacing: 1px;
@@ -368,11 +369,39 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.header-area .nav-text{
+  display: inline;
+  margin-left: 24px;
+  color: #1d1d1d;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all ease-in-out 1s;
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .header-area .nav-text {
+    background: -webkit-linear-gradient(315deg,#018CF0, #6DDE50);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
+}
+
+.header-area .nav-text:hover{
+  background: -webkit-linear-gradient(315deg,#1d1d1d, #018CF0);
+  -webkit-background-clip: text;
+  background-clip: text;
+color: transparent;
+}
+
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
   min-height: 60px;
   background: #fff;
+  
+  display: flex;
+  align-items: center;
 }
 
 .header-area .main-nav .logo {
@@ -396,14 +425,14 @@ header
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 27px;
+  right: 24px;
   margin-left: 0px;
   margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  position: relative;
+  position: absolute;
   z-index: 999;
 }
 
@@ -418,21 +447,20 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: bold;
+  font-size: 18px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   height: 40px;
-  line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #006f71;
+  color: #018CF0;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -628,10 +656,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/home.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; 
+  background-color: #1d1d1d;
   height: 100vh;
 }
 
@@ -644,10 +669,7 @@ welcome
 }
 
 .welcome-area .header-text img {
-  width:7em;
-  height:auto;
-  padding-bottom: 1em;
-  padding-top: 4em;
+ height: 30vh;
 }
 
 .welcome-area .header-text h1 {
@@ -661,7 +683,7 @@ welcome
 
 .welcome-area .header-text h4 {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
@@ -757,6 +779,7 @@ features
   transition: all 0.3s ease 0s;
   position: relative;
   margin-bottom: 30px;
+  min-height: 307.6px;
 }
 
 .features-small-item:hover .icon {
@@ -791,21 +814,20 @@ features
 }
 
 .features-small-item .features-title {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 18px;
   color: #1e1e1e;
-  letter-spacing: 0.7px;
-  margin-bottom: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 2;
 }
 
 .features-small-item p {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
   color: #777;
   letter-spacing: 0.5px;
-  line-height: 25px;
   position: relative;
   z-index: 2;
 }
@@ -823,11 +845,14 @@ features
   z-index: 9;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .home-feature {
     padding-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
+  }
+  .features-small-item{
+    min-height: 355.6px;
   }
 }
 
@@ -1373,7 +1398,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #185567 0%, #472255 91%);
+  background-image: linear-gradient(127deg, #018CF0 0%, #6DDE50 91%);
   padding-top: 30px;
 }
 
@@ -1392,12 +1417,12 @@ footer .social li a {
   color: #472255;
    text-align: center;
   background-color: #fff;
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   line-height: 36px;
   border-radius: 50%;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1407,6 +1432,10 @@ footer .social li a {
 footer .social li a:hover {
   background-color: #006f71;
   color: #fff;
+}
+
+footer .social li a i{
+  margin-top: 10px;
 }
 
 footer .copyright {
@@ -1434,6 +1463,19 @@ footer .copyright {
   }
 }
 
+@media (max-width: 768px) {
+  .social {
+    margin: 0;
+    width: 80vw;
+  }
+  footer .social li{
+margin-top: 10px;
+  }
+  .header-area{
+    display: none;
+  }
+}
+
 /* 
 ---------------------------------------------
 preloader
@@ -1441,7 +1483,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #472255 0%, #185576 100%);
+  background-image: linear-gradient(135deg, #018CF0 0%, #6DDE50 100%);
   left: 0;
   right: 0;
   top: 0;
